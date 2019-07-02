@@ -10,6 +10,6 @@ dbQ.monitorEvent('delete');
 dbQ.monitorEvent('auth')
 
 const netQ = new Q('network');
-netQ.monitorEvent('something');           //<--------- not sure what these are going to monitor
-netQ.monitorEvent('somethingelse');
+netQ.monitorEvent('file-altered');           //<--------- not sure what these are going to monitor
+
 
