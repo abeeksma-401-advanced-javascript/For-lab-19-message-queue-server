@@ -1,0 +1,23 @@
+{
+  "name": "for-lab-19-message-queue-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abeeksma-401-advanced-javascript/For-lab-19-message-queue-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abeeksma-401-advanced-javascript/For-lab-19-message-queue-server/issues"
+  },
+  "homepage": "https://github.com/abeeksma-401-advanced-javascript/For-lab-19-message-queue-server#readme",
+  "dependencies": {
+    "@nmq/q": "^1.0.3"
+  }
+}
